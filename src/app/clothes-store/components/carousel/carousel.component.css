@@ -1,0 +1,24 @@
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-indicators li {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+  }
+}

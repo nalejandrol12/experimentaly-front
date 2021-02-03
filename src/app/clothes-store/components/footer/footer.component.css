@@ -1,0 +1,33 @@
+.container-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container-footer {
+  background: #000000;
+  color: #ffffff;
+}
+
+.div-info {
+  padding: 5rem 5rem 1rem 5rem;
+}
+
+.item-img > img {
+  background-color: #ffffff;
+}
+.p-copyright,
+.p-politicas,
+.p-acerca {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.div-copyright {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.circular {
+  border-radius: 50%;
+}

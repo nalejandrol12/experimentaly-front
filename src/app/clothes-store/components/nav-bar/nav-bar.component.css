@@ -1,0 +1,22 @@
+.nav {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  background: #000000;
+  color: white;
+  padding: 0.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.barra {
+  border: 0.001px solid #ffffff;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.nav-link {
+  padding: 0.5rem 2.2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .nav-horizontal {
+    display: none;
+  }
+}

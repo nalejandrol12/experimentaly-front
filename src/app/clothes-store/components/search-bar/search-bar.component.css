@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.container-nav-search {
+  padding-top: 0.5rem;
+}
+
+btn input {
+  border: none !important;
+}
+
+.input-search,
+.btn-search {
+  background: #eeeeee 0% 0% no-repeat padding-box !important;
+  border: none !important;
+  opacity: 1 !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.btn-search {
+  border-top-left-radius: 0% !important;
+  border-bottom-left-radius: 0% !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.btn:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.span-session {
+  color: #3d3d3b;
+  font-size: 16px;
+}
+
+.div-circle {
+  border-radius: 50%;
+  border: 2px solid #3d3d3b;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+
+.div-session {
+  padding: 0.5rem 0.5rem 0.5rem 0.05rem !important;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    margin: 20px;
+  }
+}
